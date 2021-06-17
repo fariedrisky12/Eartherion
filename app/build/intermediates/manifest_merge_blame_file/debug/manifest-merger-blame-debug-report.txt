@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pbm.eartherion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:8:22-76
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:10:5-33:19
+23        android:allowBackup="true"
+23-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\c97004ca9c1c84e2b038f939ef90c0c0\core-1.3.2\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme"
+31-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:16:9-40
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:17:9-44
+33        <activity android:name="com.pbm.eartherion.activities.MainActivity" >
+33-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:19:9-25:20
+33-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:19:19-76
+34            <intent-filter>
+34-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:20:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:21:17-69
+35-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:23:17-77
+37-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:27:9-29:69
+42            android:name="com.google.android.gms.version"
+42-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:28:13-58
+43            android:value="@integer/google_play_services_version" />
+43-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:29:13-66
+44        <meta-data
+44-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:30:9-32:44
+45            android:name="com.google.android.geo.API_KEY"
+45-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:31:13-58
+46            android:value="YOUR API KEY" />
+46-->C:\Users\fariedrisky\AndroidStudioProjects\Eartherion\app\src\main\AndroidManifest.xml:32:13-41
+47        <!-- Needs to be explicitly declared on P+ -->
+48        <uses-library
+48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+49            android:name="org.apache.http.legacy"
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+50            android:required="false" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\058b25f62ad3f1d720165deba5157bf5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+51
+52        <activity
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\fariedrisky\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+56    </application>
+57
+58</manifest>
